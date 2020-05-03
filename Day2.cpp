@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Complete the solve function below.
 void solve(double meal_cost, int tip_percent, int tax_percent) {
 cout << round(meal_cost*(1+0.01*(tip_percent+tax_percent)));
 }
